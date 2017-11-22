@@ -15,7 +15,11 @@
         </div>
         <div id="navbar-header-app" class="navbar-collapse collapse">
           <ul id="header-navbar" class="nav navbar-nav navbar-left header-color">
-            <li id="predefinedItems"><a href="#" class="active"><i class="fa fa-car"></i> Predefined Items</a></li>
+            
+          </ul>
+          <ul id="header-navbar" class="nav navbar-nav navbar-right header-color">
+          	<li id="predefinedItems"><a href="#" class="active"><i class="fa fa-car"></i> Predefined Items</a></li>
+          	<li><a href="#" id="logout"><i class="fa fa-car"></i> Logout</a></li>
           </ul>
         </div>
         </div>
