@@ -18,7 +18,7 @@
             
           </ul>
           <ul id="header-navbar" class="nav navbar-nav navbar-right header-color">
-          	<li id="predefinedItems"><a href="#" class="active"><i class="fa fa-car"></i> Predefined Items</a></li>
+          	<li id="predefinedItems" class="active"><a href="#" class="active"><i class="fa fa-car"></i> Predefined Items</a></li>
           	<li><a href="#" id="logout"><i class="fa fa-car"></i> Logout</a></li>
           </ul>
         </div>

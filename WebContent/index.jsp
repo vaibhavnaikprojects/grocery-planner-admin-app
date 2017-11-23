@@ -44,23 +44,6 @@
 <script src="resources/js/bootstrap.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 <script src="resources/js/firebase-app.js"></script>
-<script type="text/javascript">
-	$('#loginBtn').on('click',function(){
-		var email=$('#emailId').val();
-		var password=$('#password').val();
-		if(email=='vaibhavsnaik09@gmail.com'){
-			firebase.auth().signInWithEmailAndPassword(email, password).then(function(){
-				window.location.href = 'home.jsp';
-			}).catch(function(error) {
-			  var errorCode = error.code;
-			  var errorMessage = error.message;
-			  $('#loginStatus').html(errorMessage);
-			});
-		}
-		else{
-			$('#loginStatus').html('Please enter admin credentials');
-		}
-	});
-</script>
+<script src="resources/js/index.js"></script>
 </body>
 </html>
