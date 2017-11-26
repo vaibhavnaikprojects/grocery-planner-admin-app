@@ -46,6 +46,11 @@ $('#logout').on('click',function(){
 	}).catch(function (err) {
 	});	  
 });
+$('#users').on('click',function(){
+	$(".nav").find(".nav-active").removeClass("nav-active");
+	$('#users').addClass("nav-active");
+	window.location.href = 'users.jsp';
+});
 $('#addproductBtnModal').on('click',function(){
 	$('#productItem').val('');
 })
